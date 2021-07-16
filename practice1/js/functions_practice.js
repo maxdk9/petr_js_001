@@ -1,5 +1,9 @@
 "use strict";
 
+document.addEventListener('DOMContentLoaded',()=>
+{
+
+
 let numberOfFilms;
 
 const personalMovieDB={
@@ -72,3 +76,4 @@ function writeYourGenres(){
 writeYourGenres();
 
 console.log(personalMovieDB);
+});
