@@ -33,11 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     /**@type{HTMLElement} */
     const poster = document.querySelector('.promo__bg');
-    
-
 
     const promoItems = document.querySelector('.promo__interactive-list');
-    
     //const addblock = document.querySelector('.add');
 
     const addForm = document.querySelector('form.add');
